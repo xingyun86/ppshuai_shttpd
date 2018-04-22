@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="shttpd\shttpd.cbp" />
+		<Project filename="shttpd\shttpd-cli.cbp" />
+		<Project filename="shttpd\shttpd-gui.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

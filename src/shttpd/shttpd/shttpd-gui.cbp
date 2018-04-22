@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="shttpd-gui" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/shttpd-gui" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/Debug" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/shttpd-gui" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/Release" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Linker>
+			<Add library="WS2_32" />
+		</Linker>
+		<Unit filename="shttpd-1.42/src/auth.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shttpd-1.42/src/cgi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shttpd-1.42/src/compat_win32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shttpd-1.42/src/io_cgi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shttpd-1.42/src/io_dir.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shttpd-1.42/src/io_emb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shttpd-1.42/src/io_file.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shttpd-1.42/src/io_socket.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shttpd-1.42/src/io_ssi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shttpd-1.42/src/io_ssl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shttpd-1.42/src/log.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shttpd-1.42/src/md5.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shttpd-1.42/src/shttpd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shttpd-1.42/src/standalone.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shttpd-1.42/src/string.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
